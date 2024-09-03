@@ -4,3 +4,6 @@ class TestController < ApplicationController
     @sql = @sales.to_sql
   end
 end
+
+a
+a
