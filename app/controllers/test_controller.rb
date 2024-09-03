@@ -5,5 +5,4 @@ class TestController < ApplicationController
   end
 end
 
-a
-a
+b
