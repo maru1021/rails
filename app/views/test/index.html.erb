@@ -1,0 +1,19 @@
+<h2>従業員ごとの日付ごとの売上合計</h2>
+<table>
+  <thead>
+    <tr>
+      <th>従業員ID</th>
+      <th>従業員名</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @sales.each do |sale| %>
+      <tr>
+        <td><%= sale.employee_id %></td>
+        <td><%= sale.amount %>円</td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<%= @sql %>

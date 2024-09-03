@@ -1,0 +1,13 @@
+<table>
+  <thead>
+    <th>年齢</th>
+    <th>人数</th>
+  </thead>
+
+  <% @test.each do |val| %>
+    <tr>
+      <td><%= val[0] %></td>
+      <td><%= val[1] %></td>
+    </tr>
+  <% end %>
+</table>
